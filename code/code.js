@@ -10,7 +10,7 @@ window.addEventListener("load", () => {
 
   console.log(Tasks.arr);
 
-  if (Tasks.arr.length) {
+  if (Tasks.arr) {
     // console.log(Tasks.getTasks());
     Tasks.arr.forEach((task) => {
       // task.prototype = Task;
