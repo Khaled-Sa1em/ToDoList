@@ -1,7 +1,7 @@
 import { default as Task } from "./taskModel.js";
 export default class Data {
   constructor() {
-    // this.arr = Array.from([new Task(1121,'asdasd')]);
+    this.arr = Array.from([new Task(1121,'asdasd')]);
     this.getTasks();
   }
 
